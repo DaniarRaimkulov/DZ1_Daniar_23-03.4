@@ -8,10 +8,9 @@ import React from 'react';
 
 function App() {
     const peoples = [
-        'Alice', 'Bob', 'Charlie', 'Dave',
-        'Eve', 'Frank', 'Grace', 'Heidi'
+        'Daniar', 'Raimkulov', 'Goon', 'HXH'
     ];
-    const menuList = ['Home', 'News', 'Sport', 'Real', 'Travel', 'Future'];
+    const menuList = ['Home', 'Sport', 'News', 'Real', 'Future'];
 
     return (
         <div>
@@ -25,15 +24,17 @@ function App() {
                 ))}
             />
 
-            <Text txt="My First React Web Site" about="Geeks IT student" />
+            <Text txt="my site" about="geektech"/>
 
             <Wrapper
                 card={peoples.map((e) => (
                     <div className="card" key={e}>
                         <h2 className="card_h2">{e}</h2>
                         <p className="card_p">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse molestias nam quia quo veniam.
-                            Aliquid aperiam assumenda culpa deleniti, distinctio doloribus dolorum inventore ipsam labore maiores
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse molestias nam quia quo
+                            veniam.
+                            Aliquid aperiam assumenda culpa deleniti, distinctio doloribus dolorum inventore ipsam
+                            labore maiores
                             minus modi non obcaecati officia officiis quasi, quia quod reiciendis rem, temporibus totam?
                         </p>
                     </div>
@@ -46,7 +47,7 @@ function App() {
                         className="btns"
                         key={e}
                         onClick={() => {
-                            console.log(`${e} this button clicked!`);
+                            console.log(`${e} this click`);
                         }}
                     >
                         {e}
@@ -54,7 +55,7 @@ function App() {
                 ))}
             />
 
-            <Footer firstNumber="+996770317829" secondNumber="+996755626217" inst="instagram" fcb="facebook" />
+            <Footer inst="nortligh"/>
         </div>
     );
 }
