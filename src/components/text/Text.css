@@ -1,0 +1,26 @@
+\.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.textBox {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.textH1 {
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #303030;
+}
+
+.textSpan {
+    display: block;
+    margin: 5px auto;
+    font-size: 20px;
+    color: #303030;
+    font-weight: bold;
+}
+
